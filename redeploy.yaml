@@ -18,7 +18,7 @@ spec:
         - linux
         - windows
     uri: https://github.com/tcoupin/kubectl-redeploy/archive/v0.0.1.zip
-    sha256: TODO
+    sha256: 18cb0519980ee19aeef25a1dd2bd337aff56bb6db78ce71f3aa96c0ff9f5e18d
     files:
     - from: "kubectl-redeploy-0.0.1/kubectl-redeploy.sh"
       to: "kubect-redeploy.sh"
