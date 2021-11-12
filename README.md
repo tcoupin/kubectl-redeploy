@@ -4,11 +4,13 @@ Kubectl plugin to trigger redeploy of a deployment
 
 ## Install
 
-This plugin is too basic to be hostes in the krew-index but you can still install it with the command :
+Just run the command :
 
 ```
 kubectl krew install --manifest-url https://raw.githubusercontent.com/tcoupin/kubectl-redeploy/main/redeploy.yaml
 ```
+
+You can not find this plugin in the krew-index because it is to simple (see [PR 1741](https://github.com/kubernetes-sigs/krew-index/pull/1741))
 
 ## Usage
 
